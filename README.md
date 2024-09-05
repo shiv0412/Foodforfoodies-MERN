@@ -73,13 +73,21 @@ The application should now be running on http://localhost:3000.
 
 **API Endpoints**
 Authentication
+
 POST /api/auth/register - Register a new user.
+
 POST /api/auth/login - Log in an existing user.
+
 Recipes
+
 GET /api/recipes - Retrieve a list of recipes.
+
 POST /api/recipes - Submit a new recipe.
+
 GET /api/recipes/:id - Retrieve a specific recipe by ID.
+
 PUT /api/recipes/:id - Update a specific recipe by ID.
+
 DELETE /api/recipes/:id - Delete a specific recipe by ID.
 
 **Contributing**
