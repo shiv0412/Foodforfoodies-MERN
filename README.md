@@ -22,48 +22,75 @@ Food for Foodies is a full-stack web application built with the MERN (MongoDB, E
 - Node.js (v14.x or later)
 - npm or yarn
 - Clone the Repository
+
 bash
 Copy code
+
 git clone https://github.com/shiv0412/Foodforfoodies-MERN.git
+
 cd Foodforfoodies-MERN
+
 Setup Backend
+
 Navigate to the server directory:
 
 bash
+
 Copy code
+
 cd server
+
 Install the required dependencies:
 
 bash
+
 Copy code
+
 npm install
+
 Create a .env file in the server directory and add your MongoDB connection string:
 
 env
+
 Copy code
+
 MONGO_URI=your_mongodb_connection_string
+
 JWT_SECRET=your_jwt_secret
+
 Start the backend server:
 
 bash
 Copy code
+
 npm start
+
 Setup Frontend
+
 Navigate to the client directory:
 
 bash
+
 Copy code
+
 cd ../client
+
 Install the required dependencies:
 
 bash
+
 Copy code
+
 npm install
+
 Start the React development server:
 
 bash
+
 Copy code
+
 npm start
+
 The application should now be running on http://localhost:3000.
 
 **Usage**
