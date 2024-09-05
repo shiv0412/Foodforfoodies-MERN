@@ -2,26 +2,26 @@
 Food for Foodies is a full-stack web application built with the MERN (MongoDB, Express.js, React.js, Node.js) stack. This project allows users to explore a variety of recipes, submit their own, and interact with other food enthusiasts.
 
 **Table of Contents**
-Features
-Installation
-Usage
-API Endpoints
-Contributing
+1. Features
+2. Installation
+3. Usage
+4. API Endpoints
+5. Contributing
 
 **Features**
-Browse and search for recipes.
-Submit new recipes and manage your submissions.
-User authentication and authorization.
-Interactive user interface with React.js.
-Backend API built with Express.js and Node.js.
-Persistent data storage with MongoDB.
+- Browse and search for recipes.
+- Submit new recipes and manage your submissions.
+- User authentication and authorization.
+- Interactive user interface with React.js.
+- Backend API built with Express.js and Node.js.
+- Persistent data storage with MongoDB.
 
 **Installation**
 
 **Prerequisites**
-Node.js (v14.x or later)
-npm or yarn
-Clone the Repository
+- Node.js (v14.x or later)
+- npm or yarn
+- Clone the Repository
 bash
 Copy code
 git clone https://github.com/shiv0412/Foodforfoodies-MERN.git
@@ -67,9 +67,9 @@ npm start
 The application should now be running on http://localhost:3000.
 
 **Usage**
-Home Page: Explore the list of recipes and search for specific dishes.
-Recipe Submission: Sign in to submit new recipes and manage your submissions.
-User Authentication: Sign up and log in to manage your account and recipes.
+- Home Page: Explore the list of recipes and search for specific dishes.
+- Recipe Submission: Sign in to submit new recipes and manage your submissions.
+- User Authentication: Sign up and log in to manage your account and recipes.
 
 **API Endpoints**
 Authentication
@@ -83,8 +83,8 @@ PUT /api/recipes/:id - Update a specific recipe by ID.
 DELETE /api/recipes/:id - Delete a specific recipe by ID.
 
 **Contributing**
-Fork the repository.
-Create a new branch (git checkout -b feature/YourFeature).
-Commit your changes (git commit -am 'Add new feature').
-Push to the branch (git push origin feature/YourFeature).
-Create a new Pull Request.
+- Fork the repository.
+- Create a new branch (git checkout -b feature/YourFeature).
+- Commit your changes (git commit -am 'Add new feature').
+- Push to the branch (git push origin feature/YourFeature).
+- Create a new Pull Request.
