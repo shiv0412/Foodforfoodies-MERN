@@ -34,17 +34,9 @@ Setup Backend
 
 Navigate to the server directory:
 
-bash
-
-Copy code
-
 cd server
 
 Install the required dependencies:
-
-bash
-
-Copy code
 
 npm install
 
@@ -52,16 +44,11 @@ Create a .env file in the server directory and add your MongoDB connection strin
 
 env
 
-Copy code
-
 MONGO_URI=your_mongodb_connection_string
 
 JWT_SECRET=your_jwt_secret
 
 Start the backend server:
-
-bash
-Copy code
 
 npm start
 
@@ -69,25 +56,13 @@ Setup Frontend
 
 Navigate to the client directory:
 
-bash
-
-Copy code
-
 cd ../client
 
 Install the required dependencies:
 
-bash
-
-Copy code
-
 npm install
 
 Start the React development server:
-
-bash
-
-Copy code
 
 npm start
 
